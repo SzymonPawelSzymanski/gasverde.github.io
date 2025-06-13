@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+  <script src="https://cdn.tailwindcss.com"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GAS Verde – mikro biogazownie</title>
+  <title>GAS Verde – mikrobiogazownie</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -59,158 +60,349 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>GAS Verde</h1>
-    <p>Projektujemy i wdrażamy mikro biogazownie dla sektora spożywczego – oszczędzaj na odpadach i energii</p>
-    <p>Poznaj nasze mikro biogazownie o mocy do 50kW!</p>
+  <header class="bg-green-900 text-white text-center py-16 px-6">
+    <h1 class="text-4xl font-extrabold mb-4">GAS Verde</h1>
+    <p class="text-lg max-w-2xl mx-auto mb-2">Projektujemy i wdrażamy mikrobiogazownie dla sektora spożywczego – oszczędzaj na odpadach i energii</p>
+    <p class="text-lg max-w-2xl mx-auto font-semibold">Poznaj nasze mikrobiogazownie o mocy do 50kW!</p>
   </header>
 
-  <section>
-    <div class="infobox">
-      <h2>Problem</h2>
-      <p>Firmy spożywcze ponoszą wysokie koszty utylizacji bioodpadów(do 15% wydatków operacyjnych) i energii elektrycznej (60% ich zużycia energetycznego). W 2026 roku wejdą w życie nowe obowiązki energetyczne – to rosnące wyzwanie dla MŚP.</p>
-    <div class="bg-white rounded-2xl shadow-lg p-6 md:p-8 max-w-3xl mx-auto space-y-4">
-  <h3 class="text-xl font-semibold text-gray-800">Pain points</h2>
-  <ul class="list-disc list-inside text-gray-700 space-y-2">
-    <li>
-      <strong>Wysokie koszty utylizacji odpadów organicznych:</strong><br>
-      • Odpady organiczne stanowią ok. 20% odpadów biodegradowalnych w Polsce.<br>
-      • Koszty ich zagospodarowania sięgają 10–15% wydatków operacyjnych.
-    </li>
-    <li>
-      <strong>Znaczne zużycie energii:</strong><br>
-      • MŚP odpowiadają za 46% zużycia energii w produkcji.<br>
-      • Energia elektryczna to aż 60% tego zużycia.
-    </li>
-    <li>
-      <strong>Nadchodzące regulacje od 2026 r.:</strong><br>
-      • Obowiązek audytu energetycznego przy zużyciu >2 778 MWh/rok.<br>
-      • ISO 50001 wymagane przy zużyciu >23 611 MWh/rok.
-    </li>
-    <li>
-      <strong>Konsekwencje dla firm:</strong><br>
-      • Mniejsza elastyczność operacyjna.<br>
-      • Rosnąca presja na poprawę efektywności energetycznej i środowiskowej.
-    </li>
-  </ul>
-</div>
-    </div>
-    
-    <div class="infobox">
-      <h2>Rozwiązanie</h2>
-      <p>Mikro biogazownie do 50 kW z innowacyjnym odzyskiem ciepła. Przekształcamy odpady w energię i nawóz, obniżając koszty i emisje.</p>
-      <div style="background-color: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
-  <h3 style="color: #2a7d2e; margin-bottom: 16px;">Oferujemy:</h3>
-  <ul style="padding-left: 20px; color: #333; line-height: 1.6;">
-    <li><strong>Mikro biogazownie do 50 kW</strong> – projektowane i wdrażane specjalnie dla MŚP z sektora spożywczego.</li>
-    <li><strong>Innowacyjny system odzysku ciepła</strong> – zwiększający efektywność energetyczną instalacji.</li>
-    <li><strong>Efektywne przetwarzanie odpadów organicznych</strong> – obniżenie kosztów utylizacji.</li>
-    <li><strong>Własna produkcja energii elektrycznej i cieplnej</strong> – zmniejszenie kosztów energii i zwiększenie niezależności energetycznej.</li>
-    <li><strong>Redukcja emisji gazów cieplarnianych</strong> – pozytywny wpływ na środowisko.</li>
-    <li><strong>Wytwarzanie pofermentu</strong> – ekologiczny nawóz jako produkt uboczny procesu.</li>
-  </ul>
-</div>
-    </div>
-    <div class="infobox">
-      <div style="font-family: Arial, sans-serif; max-width: 900px; margin: 20px auto; line-height: 1.5; color: #333;">
-  <h2 style="color: #2c7a7b;">Zrównoważona energia z odpadów – GAS Verde dla MŚP</h2>
-  <p>
-    GAS Verde oferuje kompaktowe, modułowe mikro biogazownie o mocy do 50 kW, projektowane indywidualnie dla firm z sektora spożywczego (m.in. sklepy, mleczarnie, tłocznie oleju, gospodarstwa rolne). Instalacje przetwarzają bioodpady w energię elektryczną, ciepło i ekologiczny nawóz, znacząco obniżając koszty operacyjne i ślad węglowy przedsiębiorstw. 
-  </p>
+  <main class="max-w-5xl mx-auto px-6 py-16 space-y-16">
 
-  <div style="display: flex; gap: 40px; margin-top: 30px;">
-    <div style="flex: 1; color: #2c7a7b;">
-      <h3>Status rozwoju:</h3>
-      <ul style="list-style-type: disc; padding-left: 20px;">
-        <li>Projekt gotowy do implementacji po optymalizacji pod klienta</li>
-        <li>“Turnkey solution” – kompleksowa dokumentacja wykonawcza dla pierwszej instalacji 20 kW</li>
-        <li>Gotowość do szybkiego wdrożenia i skalowania dla różnych przedsiębiorstw</li>
-      </ul>
+    <section class="bg-white rounded-2xl shadow-lg p-8">
+      <h2 class="text-3xl font-bold text-green-900 mb-6">Problem</h2>
+      <p class="mb-8">Firmy spożywcze ponoszą wysokie koszty utylizacji bioodpadów (do 15% wydatków operacyjnych) i energii elektrycznej (60% ich zużycia energetycznego). W 2026 roku wejdą w życie nowe obowiązki energetyczne – to rosnące wyzwanie dla MŚP.</p>
+
+      <div class="bg-gray-50 rounded-2xl shadow-md p-8 max-w-3xl mx-auto space-y-6">
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">Pain points</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-4">
+          <li>
+            <strong>Wysokie koszty utylizacji odpadów organicznych:</strong><br />
+            • Odpady organiczne stanowią ok. 20% odpadów biodegradowalnych w Polsce.<br />
+            • Koszty ich zagospodarowania sięgają 10–15% wydatków operacyjnych.
+          </li>
+          <li>
+            <strong>Znaczne zużycie energii:</strong><br />
+            • MŚP odpowiadają za 46% zużycia energii w produkcji.<br />
+            • Energia elektryczna to aż 60% tego zużycia.
+          </li>
+          <li>
+            <strong>Nadchodzące regulacje od 2026 r.:</strong><br />
+            • Obowiązek audytu energetycznego przy zużyciu &gt;2 778 MWh/rok.<br />
+            • ISO 50001 wymagane przy zużyciu &gt;23 611 MWh/rok.
+          </li>
+          <li>
+            <strong>Konsekwencje dla firm:</strong><br />
+            • Mniejsza elastyczność operacyjna.<br />
+            • Rosnąca presja na poprawę efektywności energetycznej i środowiskowej.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg p-8">
+      <h2 class="text-3xl font-bold text-green-900 mb-6">Rozwiązanie</h2>
+      <p class="mb-8">mikrobiogazownie do 50 kW z innowacyjnym odzyskiem ciepła. Przekształcamy odpady w energię i nawóz, obniżając koszty i emisje.</p>
+      <div class="bg-green-50 rounded-xl shadow-inner p-8 max-w-3xl mx-auto text-gray-900">
+        <h3 class="text-xl font-semibold text-green-700 mb-4">Oferujemy:</h3>
+        <ul class="list-disc list-inside space-y-3 leading-relaxed">
+          <li><strong>mikrobiogazownie do 50 kW</strong> – projektowane i wdrażane specjalnie dla MŚP z sektora spożywczego.</li>
+          <li><strong>Innowacyjny system odzysku ciepła</strong> – zwiększający efektywność energetyczną instalacji.</li>
+          <li><strong>Efektywne przetwarzanie odpadów organicznych</strong> – obniżenie kosztów utylizacji.</li>
+          <li><strong>Własna produkcja energii elektrycznej i cieplnej</strong> – zmniejszenie kosztów energii i zwiększenie niezależności energetycznej.</li>
+          <li><strong>Redukcja emisji gazów cieplarnianych</strong> – pozytywny wpływ na środowisko.</li>
+          <li><strong>Wytwarzanie pofermentu</strong> – ekologiczny nawóz jako produkt uboczny procesu.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg p-8 space-y-12">
+      <h2 class="text-3xl font-bold text-green-900">Zrównoważona energia z odpadów – GAS Verde dla MŚP</h2>
+      <p>
+        GAS Verde oferuje kompaktowe, modułowe mikrobiogazownie o mocy do 50 kW, projektowane indywidualnie dla firm z sektora spożywczego (m.in. sklepy, mleczarnie, tłocznie oleju, gospodarstwa rolne). Instalacje przetwarzają bioodpady w energię elektryczną, ciepło i ekologiczny nawóz, znacząco obniżając koszty operacyjne i ślad węglowy przedsiębiorstw.
+      </p>
+
+      <div class="flex flex-col md:flex-row gap-12 text-green-900">
+        <div class="flex-1">
+          <h3 class="font-semibold text-2xl mb-4">Status rozwoju:</h3>
+          <ul class="list-disc list-inside space-y-3">
+            <li>Projekt gotowy do implementacji po optymalizacji pod klienta</li>
+            <li>“Turnkey solution” – kompleksowa dokumentacja wykonawcza dla pierwszej instalacji 20 kW</li>
+            <li>Gotowość do szybkiego wdrożenia i skalowania dla różnych przedsiębiorstw</li>
+          </ul>
+        </div>
+
+        <div class="flex-1">
+          <h3 class="font-semibold text-2xl mb-4">Strategia konkurencyjna:</h3>
+          <ul class="list-disc list-inside space-y-3">
+            <li>Kompaktowa, modułowa konstrukcja idealna dla małych i średnich firm</li>
+            <li>Innowacyjny system odzysku ciepła zwiększający efektywność energetyczną</li>
+            <li>Pełna obsługa – od projektu po optymalizację kosztów i śladu węglowego</li>
+            <li>Wsparcie formalne i środowiskowe dla klienta</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-lg p-8">
+      <h2 class="text-3xl font-bold text-green-900 mb-6">Rynek</h2>
+      <p class="mb-6">Średnio 10–15% kosztów firm spożywczych to utylizacja odpadów. 46% zużycia energii przypada na produkcję. Wysokie zużycie = wysokie rachunki.</p>
+      <img src="infografika.png" alt="Infografika rynkowa" class="mx-auto max-w-full rounded-lg shadow-md" />
+
+      <div class="max-w-4xl mx-auto mt-10 text-green-900">
+        <h2 class="text-2xl font-bold mb-6">Kluczowe wyzwania dla MŚP w sektorze spożywczym</h2>
+        <ul class="list-disc list-inside space-y-5 text-gray-700">
+          <li>
+            <strong>Wysokie koszty utylizacji odpadów:</strong> 
+            Odpady organiczne stanowią 20% odpadów biodegradowalnych, a ich utylizacja kosztuje 10-15% budżetu firm. 
+            <br /><a href="https://24tp.pl/n/126318" target="_blank" class="text-green-700 hover:underline">Źródło</a>
+          </li>
+          <li>
+            <strong>Zużycie energii w MŚP:</strong> 
+            46% energii w produkcji pochodzi z sektora MŚP, gdzie energia elektryczna stanowi 60% zużycia.
+            <br /><a href="https://www.gov.pl/attachment/37228a79-a0e1-48ab-be90-147d0afe378a" target="_blank" class="text-green-700 hover:underline">Źródło</a>
+          </li>
+          <li>
+            <strong>Nowe regulacje energetyczne:</strong> 
+            Obowiązki audytów energetycznych i ISO 50001 wchodzą w życie od 2026 r., nakładając wymogi na zużycie energii.
+            <br /><a href="https://ceet.pl/audyt-energetyczny-2025-nowe-obowiazki-dla-duzych-firm-a-od-2026-takze-dla-msp-jak-przygotowac-przedsiebiorstwo-na-nadchodzace-zmiany/" target="_blank" class="text-green-700 hover:underline">Źródło</a>
+          </li>
+          <li>
+            <strong>Konkurencyjność i efektywność:</strong> 
+            Firmy muszą optymalizować koszty i minimalizować ślad węglowy, by pozostać konkurencyjne na rynku.
+            <br /><a href="https://pie.net.pl/wp-content/uploads/2023/05/PIE-Raport_Reakcje-biznesu_2023.pdf" target="_blank" class="text-green-700 hover:underline">Źródło</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    </div>
+    <div class="infobox">
+    <section id="model-biznesowy" class="bg-gradient-to-br from-green-50 to-green-100 py-16 px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="mb-10 text-center">
+      <h2 class="text-4xl font-bold text-green-800 mb-4">Model Biznesowy</h2>
+      <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+        GAS Verde projektuje mikrobiogazownie (20–50 kW) w formule <strong>E+PC</strong> – oferując dokumentację, analizę opłacalności,
+        optymalizację energetyczną i pełne wsparcie formalne.
+      </p>
     </div>
 
-    <div style="flex: 1; color: #2c7a7b;">
-      <h3>Strategia konkurencyjna:</h3>
-      <ul style="list-style-type: disc; padding-left: 20px;">
-        <li>Kompaktowa, modułowa konstrukcja idealna dla małych i średnich firm</li>
-        <li>Innowacyjny system odzysku ciepła zwiększający efektywność energetyczną</li>
-        <li>Pełna obsługa – od projektu po optymalizację kosztów i śladu węglowego</li>
-        <li>Wsparcie formalne i środowiskowe dla klienta</li>
-      </ul>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div class="bg-white rounded-2xl shadow-lg p-6 border-l-4 border-green-500">
+        <h3 class="text-2xl font-semibold text-green-700 mb-3">Sposób monetyzacji</h3>
+        <p class="text-gray-700">
+          Opłata za projekt ustalana indywidualnie na podstawie zakresu i skali wdrożenia.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg p-6 border-l-4 border-green-500">
+        <h3 class="text-2xl font-semibold text-green-700 mb-3">Kluczowe wskaźniki (KPI)</h3>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-800">
+          <li class="bg-green-50 rounded-xl p-4 shadow-inner">
+            <span class="font-semibold">ARPU</span><br />
+            (Average Revenue Per User)
+          </li>
+          <li class="bg-green-50 rounded-xl p-4 shadow-inner">
+            <span class="font-semibold">MRR</span><br />
+            (Monthly Recurring Revenue)
+          </li>
+          <li class="bg-green-50 rounded-xl p-4 shadow-inner">
+            <span class="font-semibold">Czas realizacji projektu</span>
+          </li>
+          <li class="bg-green-50 rounded-xl p-4 shadow-inner">
+            <span class="font-semibold">Marża brutto</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
-    </div>
-    <div class="infobox">
-      <h2>Rynek</h2>
-      <p>Średnio 10–15% kosztów firm spożywczych to utylizacja odpadów. 46% zużycia energii przypada na produkcję. Wysokie zużycie = wysokie rachunki.</p>
-      <img src="wykres.png" alt="Infografika rynkowa" style="width:100%; max-width:600px; display:block; margin:auto;">
-      <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 20px auto; line-height: 1.5; color: #333;">
-  <h2 style="color: #2c7a7b; margin-bottom: 15px;">Kluczowe wyzwania dla MŚP w sektorze spożywczym</h2>
-  
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li>
-      <strong>Wysokie koszty utylizacji odpadów:</strong> 
-      Odpady organiczne stanowią 20% odpadów biodegradowalnych, a ich utylizacja kosztuje 10-15% budżetu firm. 
-      <br><a href="https://24tp.pl/n/126318" target="_blank" style="color: #2c7a7b; text-decoration: none;">Źródło</a>
-    </li>
-    <li style="margin-top: 12px;">
-      <strong>Duże zużycie energii i koszty:</strong> 
-      MŚP odpowiadają za 46% zużycia energii, z czego 60% to energia elektryczna, co podnosi koszty operacyjne. 
-      <br><a href="https://www.gov.pl/attachment/37228a79-a0e1-48ab-be90-147d0afe378a" target="_blank" style="color: #2c7a7b; text-decoration: none;">Źródło</a>
-    </li>
-    <li style="margin-top: 12px;">
-      <strong>Nowe przepisy od 2026 roku:</strong> 
-      Firmy zużywające ponad 2 778 MWh muszą robić audyt energetyczny, powyżej 23 611 MWh – wdrożyć ISO 50001. 
-      <br><a href="https://ceet.pl/audyt-energetyczny-2025-nowe-obowiazki-dla-duzych-firm-a-od-2026-takze-dla-msp-jak-przygotowac-przedsiebiorstwo-na-nadchodzace-zmiany/" target="_blank" style="color: #2c7a7b; text-decoration: none;">Źródło</a>
-    </li>
-    <li style="margin-top: 12px;">
-      <strong>Wzrost kosztów energii:</strong> 
-      W 2022 r. koszty energii wzrosły o 44% w porównaniu do 2019 r., stanowiąc 3,3% kosztów firm. 
-      <br><a href="https://pie.net.pl/wp-content/uploads/2023/05/PIE-Raport_Reakcje-biznesu_2023.pdf" target="_blank" style="color: #2c7a7b; text-decoration: none;">Źródło</a>
-    </li>
-    <li style="margin-top: 12px;">
-      <strong>Koszty chłodzenia:</strong> 
-      Chłodzenie w sklepach spożywczych to około 60% całkowitego zużycia energii. 
-      <br><a href="https://areacooling.com/areacademy/pl/udzialy-zuzycia-energii-elektrycznej-w-standardowym-sklepie-spozywczym/" target="_blank" style="color: #2c7a7b; text-decoration: none;">Źródło</a>
-    </li>
-  </ul>
-</div>
-
-    </div>
-    <div class="infobox">
-      <h2>Model Biznesowy</h2>
-      <p>Przychody z projektowania i doradztwa (E+PC). KPI: ARPU, MRR, czas realizacji, marża brutto.</p>
     </div>
     <div class="infobox team">
-      <h2>Zespół</h2>
-      <p><strong>Gabriela Miodek</strong> – środowisko i administracja<br>
-      <strong>Agata Wałek</strong> – inżynieria procesowa<br>
-      <strong>Szymon Kruk</strong> – technologia i odzysk energii</p>
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-12">Zespół</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Gabriela Miodek -->
+<div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center max-w-xs mx-auto">
+  <div class="w-32 h-32 rounded-full overflow-hidden mb-4 bg-gray-200">
+    <img src="gabriela.png" alt="Gabriela Miodek" class="w-full h-full object-cover rounded-full" />
+  </div>
+  <h3 class="text-xl font-semibold text-green-700">Gabriela Miodek</h3>
+  <p class="text-sm text-gray-600 mt-2">
+    Specjalistka ds. środowiska z 10-letnim doświadczeniem w OZE i gospodarce odpadowej. Zarządza projektami i relacjami z klientami w branży spożywczej.
+  </p>
+</div>
+
+<!-- Agata Wałek -->
+<div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center max-w-xs mx-auto">
+  <div class="w-32 h-32 rounded-full overflow-hidden mb-4 bg-gray-200">
+    <img src="agata.png" alt="Agata Wałek" class="w-full h-full object-cover rounded-full" />
+  </div>
+  <h3 class="text-xl font-semibold text-green-700">Agata Wałek</h3>
+  <p class="text-sm text-gray-600 mt-2">
+    Inżynier procesowy z doświadczeniem w przetwórstwie spożywczym i rolnictwie. Adaptuje biogazownie do warunków terenowych i infrastruktury.
+  </p>
+</div>
+
+<!-- Szymon Kruk -->
+<div class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center max-w-xs mx-auto">
+  <div class="w-32 h-32 rounded-full overflow-hidden mb-4 bg-gray-200">
+    <img src="szymon.png" alt="Szymon Kruk" class="w-full h-full object-cover rounded-full" />
+  </div>
+  <h3 class="text-xl font-semibold text-green-700">Szymon Kruk</h3>
+  <p class="text-sm text-gray-600 mt-2">
+    Projektant technologii biogazu i odzysku ciepła. Ekspert w kogeneracji i systemach zamkniętego obiegu energii. Odpowiada za stronę technologiczną projektów.
+  </p>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
     </div>
     <div class="infobox">
-      <h2>Trakcja</h2>
-      <ul>
-        <li>1 projekt gotowy (20 kW)</li>
-        <li>2 zapytania na 30–50 kW</li>
-        <li>1 LOI z siecią sklepów</li>
-        <li>5 analiz lokalizacji</li>
-      </ul>
+      <section class="bg-white py-16 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-12">Trakcja</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Punkt 1 -->
+      <div class="flex items-start space-x-4">
+        <div class="flex-shrink-0 bg-green-100 text-green-700 p-3 rounded-full">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12l2 2l4 -4" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg text-green-700">1 kompletna dokumentacja</h3>
+          <p class="text-gray-600">Gotowy projekt wykonawczy biogazowni 20 kW w modelu zintegrowanym dla sklepu spożywczego.</p>
+        </div>
+      </div>
+
+      <!-- Punkt 2 -->
+      <div class="flex items-start space-x-4">
+        <div class="flex-shrink-0 bg-green-100 text-green-700 p-3 rounded-full">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12l2 2l4 -4" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg text-green-700">2 aktywne zapytania ofertowe</h3>
+          <p class="text-gray-600">Biogazownie 30–50 kW dla zakładów mleczarskich i producentów jaj.</p>
+        </div>
+      </div>
+
+      <!-- Punkt 3 -->
+      <div class="flex items-start space-x-4">
+        <div class="flex-shrink-0 bg-green-100 text-green-700 p-3 rounded-full">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12l2 2l4 -4" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg text-green-700">1 podpisany LOI</h3>
+          <p class="text-gray-600">List intencyjny z regionalną siecią sklepów spożywczych.</p>
+        </div>
+      </div>
+
+      <!-- Punkt 4 -->
+      <div class="flex items-start space-x-4">
+        <div class="flex-shrink-0 bg-green-100 text-green-700 p-3 rounded-full">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+               viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12l2 2l4 -4" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg text-green-700">5 analiz lokalizacyjnych</h3>
+          <p class="text-gray-600">Dla obiektów generujących bioodpady – potencjalne lokalizacje pod nowe instalacje.</p>
+        </div>
+      </div>
+
     </div>
-    <div class="infobox">
-      <h2>Plan wydatków</h2>
-      <ul>
-        <li>Projekty pilotażowe – 45%</li>
-        <li>R&D – 25%</li>
-        <li>Marketing i sprzedaż – 15%</li>
-        <li>Operacje i doradztwo – 15%</li>
-      </ul>
+  </div>
+</section>
+
     </div>
-    <div class="infobox">
-      <h2>Warunki inwestycji</h2>
-      <p>Poszukiwany kapitał: 1 000 000 zł (udziały, runda seed)<br>
-      Wycena pre-money: 1,5 – 2 mln zł</p>
+    <section class="bg-gray-50 py-16 px-6">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-10">
+      Plan wykorzystania kapitału
+    </h2>
+
+    <div class="overflow-x-auto shadow-lg rounded-2xl">
+      <table class="min-w-full text-left text-sm bg-white border border-gray-200 rounded-lg">
+        <thead class="bg-green-100 text-green-800">
+          <tr>
+            <th class="px-6 py-4 font-semibold">Kategoria</th>
+            <th class="px-6 py-4 font-semibold">Udział</th>
+            <th class="px-6 py-4 font-semibold">Harmonogram</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200 text-gray-700">
+          <tr>
+            <td class="px-6 py-4">Zespół projektowy + 2–3 projekty pilotażowe</td>
+            <td class="px-6 py-4 font-medium text-green-700">45%</td>
+            <td class="px-6 py-4">Q3–Q4 2025</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="px-6 py-4">Rozwój narzędzi optymalizacyjnych (R&D)</td>
+            <td class="px-6 py-4 font-medium text-green-700">25%</td>
+            <td class="px-6 py-4">Q3 2025</td>
+          </tr>
+          <tr>
+            <td class="px-6 py-4">Marketing i sprzedaż (B2B, materiały, strona)</td>
+            <td class="px-6 py-4 font-medium text-green-700">15%</td>
+            <td class="px-6 py-4">Q4 2025 – Q1 2026</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="px-6 py-4">Operacje, doradztwo, administracja</td>
+            <td class="px-6 py-4 font-medium text-green-700">15%</td>
+            <td class="px-6 py-4">Q3 2025 – Q1 2026</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+    <section class="bg-white py-16 px-6">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-green-800 mb-10">
+      Warunki inwestycji
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+      <div class="bg-green-50 border border-green-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-green-700 mb-2">Kapitał</h3>
+        <p class="text-2xl font-bold text-gray-900">1 000 000 zł</p>
+        <p class="text-sm text-gray-500 mt-1">(ok. 30%–40%)</p>
+      </div>
+
+      <div class="bg-green-50 border border-green-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-green-700 mb-2">Forma</h3>
+        <p class="text-lg font-medium text-gray-900">Udziały</p>
+        <p class="text-sm text-gray-500">(runda seed)</p>
+      </div>
+
+      <div class="bg-green-50 border border-green-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+        <h3 class="text-xl font-semibold text-green-700 mb-2">Wycena pre-money</h3>
+        <p class="text-lg font-medium text-gray-900">1,5 – 2 mln zł</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </div>
+</section>
+
   </section>
 
   <footer>
